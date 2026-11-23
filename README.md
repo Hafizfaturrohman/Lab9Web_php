@@ -107,6 +107,7 @@ Tambahkan folder `screenshots/` berisi: struktur direktori, template (beberapa h
 
 <img width="1142" height="564" alt="image" src="https://github.com/user-attachments/assets/d3362abf-1b52-4110-bddc-cda413454c9e" />
 
+
 1. Buka uji-include.php
 Ketik di browser: http://localhost/Lab9Web/latihan/uji-include.php
 
