@@ -1,9 +1,7 @@
 # Lab9Web — Praktikum 9: PHP Modular
 
 **Mata Kuliah:** Pemrograman Web
-**Nama / NIM / Kelas:** 
-Nama	Hafiz Faturrohman
-NIM	312210375
+**Nama : Hafiz Faturrohman / NIM : 312210375** 
 
 ## 1. Tujuan Project
 Menerapkan modularisasi aplikasi PHP: template bersama (header/footer), library function (helpers), struktur direktori terpisah berdasarkan tanggung jawab, routing berbasis parameter URL dengan whitelist + halaman 404, serta refactoring aplikasi CRUD pengguna.
