@@ -93,3 +93,21 @@ Rute `user/*` hanya dapat diakses setelah login; jika belum login pengguna diali
 
 ## 10. Screenshot
 Tambahkan folder `screenshots/` berisi: struktur direktori, template (beberapa halaman), demo function, routing (termasuk 404), dan CRUD (list, tambah, edit, hapus).
+<img width="1162" height="632" alt="image" src="https://github.com/user-attachments/assets/4e8ac270-4de7-4911-bbfa-7c06f62ee045" />
+
+<img width="948" height="626" alt="image" src="https://github.com/user-attachments/assets/e8d17acc-112a-48f2-aa2b-ad3d5a27003d" />
+
+<img width="1189" height="611" alt="image" src="https://github.com/user-attachments/assets/21fb7079-90c9-4f44-9c64-776ab20016a2" />
+
+<img width="1143" height="646" alt="image" src="https://github.com/user-attachments/assets/e5116cb4-01b3-460a-a57c-7f63637b9987" />
+<img width="944" height="488" alt="image" src="https://github.com/user-attachments/assets/3d14e534-45d9-40eb-9b7d-f8f52e123be1" />
+
+<img width="1146" height="583" alt="image" src="https://github.com/user-attachments/assets/04ea1988-2c51-426b-8ebc-0513d6c66b3e" />
+<img width="933" height="595" alt="image" src="https://github.com/user-attachments/assets/461d3fb4-e329-4b27-b8e3-9c811f895fdf" />
+
+<img width="1142" height="564" alt="image" src="https://github.com/user-attachments/assets/d3362abf-1b52-4110-bddc-cda413454c9e" />
+
+
+
+
+
