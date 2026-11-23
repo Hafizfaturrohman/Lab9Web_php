@@ -107,6 +107,50 @@ Tambahkan folder `screenshots/` berisi: struktur direktori, template (beberapa h
 
 <img width="1142" height="564" alt="image" src="https://github.com/user-attachments/assets/d3362abf-1b52-4110-bddc-cda413454c9e" />
 
+1. Buka uji-include.php
+Ketik di browser: http://localhost/Lab9Web/latihan/uji-include.php
+
+Hasil yang benar:
+
+Sebelum pemanggilan
+Ini isi dari pesan.php
+Sesudah pemanggilan
+
+2. Uji include saat file tidak ada
+
+Di VS Code, rename pesan.php menjadi pesan2.php.
+Refresh uji-include.php.
+Hasil yang benar: muncul tulisan Warning (file tidak ditemukan), tapi "Sesudah pemanggilan" tetap tampil.
+Screenshot hasilnya.
+
+3. Uji require saat file tidak ada
+
+Buka latihan/uji-include.php, lalu ubah baris ini:
+php
+include __DIR__ . '/pesan.php';
+
+menjadi:
+
+php
+require __DIR__ . '/pesan.php';
+Simpan dan refresh (pesan.php masih bernama pesan2.php).
+Hasil yang benar: muncul Fatal error, dan "Sesudah pemanggilan" tidak tampil karena program berhenti.
+Screenshot hasilnya.
+<img width="1358" height="233" alt="image" src="https://github.com/user-attachments/assets/da1e01ca-621e-4019-9144-91fd6c1431b4" />
+
+4. Kembalikan ke semula
+
+Rename pesan2.php kembali menjadi pesan.php.
+Ubah require kembali menjadi include jika perlu.
+
+5. Catat perbedaannya untuk laporan
+
+	include	require
+File tidak ditemukan	Warning	Fatal error
+Program setelahnya	Tetap jalan	Berhenti
+Setelah itu
+
+Lanjut ke Tahap 6 di langkah sebelumnya, yaitu membuka aplikasi utama di http://localhost/Lab9Web/index.php, setelah database diimport lewat phpMyAdmin. Kalau database belum diimport, halaman utama akan menampilkan "Terjadi kesalahan pada koneksi database".
 
 
 
